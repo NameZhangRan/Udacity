@@ -1,0 +1,8 @@
+jupyter
+pandas
+matplotlib
+numpy
+seaborn
+scikit-learn
+scipy
+unicodecsv
