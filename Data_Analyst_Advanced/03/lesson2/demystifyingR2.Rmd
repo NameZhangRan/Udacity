@@ -24,13 +24,14 @@ Subset the data so that you create a new data frame that contains
 cars that get 23 or more mpg (miles per gallon). Save it to a new data
 frame called efficient.
 ```{r}
-
+efficient <- subset(mtcars, mpg >= 23)
+efficient
 ```
 
 3. How many cars get more than 23 mpg? Use one of the commands you
 learned in the demystifying.R to answer this question.
 ```{r}
-
+dim(efficient)
 ```
 
 4. We can also use logical operators to find out which car(s) get greater
@@ -66,12 +67,13 @@ Now you try some.
 6. Print the cars that have a 1/4 mile time (qsec) less than or equal to
 16.90 seconds to the console.
 ```{r}
-
+subset(mtcars, qsec <= 16.90)
 ```
 
 7. Save the subset of cars that weigh under 2000 pounds (weight is measured in lb/1000) to a variable called lightCars. Print the numbers of cars and the subset to the console.
 ```{r}
-
+lightCars <- subset(mtcars, wt < 2.0)
+dim(lightCars)[1]
 ```
 
 8. You can also create new variables in a data frame. Let's say you wanted
@@ -103,7 +105,7 @@ Open the table of values to see what values year takes on.
 
 Drop the year variable from the data set.
 ```{r}
-
+mtcars <- subset(mtcars, select = -year)
 ```
 
 
