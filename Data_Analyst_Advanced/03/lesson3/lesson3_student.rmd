@@ -1,6 +1,15 @@
+---
+output:
+  html_document: default
+  word_document: default
+  pdf_document: default
+---
 Lesson 3
 ========================================================
-
+```{r}
+install.packages('knitr', dependencies = T)
+library(knitr)
+```
 ***
 
 ### What to Do First?
