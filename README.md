@@ -1,2 +1,4 @@
-# Udacity
-My study notes at Udacity
+# 本仓库包含以下内容
+
+* 数据分析的学习记录和实践项目
+* 机器学习的学习记录和实践项目
