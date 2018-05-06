@@ -2,17 +2,12 @@
 
 ## 本仓库包含以下内容
 
-#### 数据分析的学习记录和实践项目
+#### 数据分析的笔记和实践项目
 
 * 上海单月摩拜单车数据可视化
 [清理](https://github.com/NameZhangRan/Udacity/blob/master/Data_Analyst_Advanced/04/mobike_data_clear.ipynb)
 [图表](https://public.tableau.com/profile/zhangran#!/vizhome/Mobike_Tableau_Story_V1_1/Story)
 [报告](https://github.com/NameZhangRan/Udacity/blob/master/Data_Analyst_Advanced/04/Mobike_Tableau_Report.pdf)
 
-
-#### 机器学习的学习记录和实践项目
-
-[清理](https://github.com/NameZhangRan/Udacity/blob/master/Data_Analyst_Advanced/04/mobike_data_clear.ipynb "清理")
-
-# Heading 1 link [Heading link](https://github.com/pandao/editor.md "Heading link")
+#### 机器学习的笔记和实践项目
 
